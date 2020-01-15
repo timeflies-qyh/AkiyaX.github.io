@@ -1,6 +1,7 @@
 ---
 title: Hello World
 id: hello-world
+tag: 折腾
 ---
 >Welcome to [Hexo](https://hexo.io/)! This is your very first post. Check [documentation](https://hexo.io/docs/) for more info. If you get any problems when using Hexo, you can find the answer in [troubleshooting](https://hexo.io/docs/troubleshooting.html) or you can ask me on [GitHub](https://github.com/hexojs/hexo/issues).
 
@@ -176,7 +177,8 @@ nav:
             "url": "\/my-new-blog\/",
             "rid": "5e1dbf4f7796d9006a31b183",
             "isNotified": true
-        }
+        },
+    ],
     "className": "Comment"
 }
 ```

@@ -112,3 +112,4 @@ valine:
  notify: false #评论回复提醒
  placeholder: 想对作者说点什么... #评论框占位符
  avatar: retro
+ visitor: true	#阅读量统计
