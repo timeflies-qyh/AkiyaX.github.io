@@ -1,19 +1,19 @@
 // Highlight Color
 $highlight-deletion     = #fdd
-$highlight-addition     = #dfd
-$highlight-background   = #f7f7f7
-$highlight-current-line = #efefef
-$highlight-selection    = #d6d6d6
-$highlight-foreground   = #4d4d4c
-$highlight-comment      = #8e908c
-$highlight-red          = #c82829
-$highlight-orange       = #f5871f
-$highlight-yellow       = #eab700
-$highlight-green        = #718c00
-$highlight-aqua         = #3e999f
-$highlight-blue         = #4271ae
-$highlight-purple       = #8959a8
-$highlight-gutter       = #869194
+$highlight-addition     = #b5cea8
+$highlight-background   = #1e1e1e
+$highlight-current-line = #1e1e1e
+$highlight-selection    = #264f78
+$highlight-foreground   = #d4d4d4
+$highlight-comment      = #6a9955
+$highlight-red          = #d16969
+$highlight-orange       = #ce9178
+$highlight-yellow       = #dcdcaa
+$highlight-green        = #4ec9b0
+$highlight-aqua         = #99dbf9
+$highlight-blue         = #569cd6
+$highlight-purple       = #c586d0
+$highlight-gutter       = #808080
 
 .post-content {
   figure.highlight {
@@ -60,12 +60,10 @@ $highlight-gutter       = #869194
 	pre .meta     { color: $highlight-purple; }
 
 	pre {
-
+		
+		.params { color: $highlight-foreground; }
 		.comment { color: $highlight-comment; }
 
-		.variable
-		.attribute
-		.tag
 		.regexp
 		.ruby .constant
 		.xml .tag .title
@@ -77,15 +75,14 @@ $highlight-gutter       = #869194
 		.css .pseudo {
 			color: $highlight-red;
 		}
-
+		
 		.number
 		.preprocessor
 		.built_in
 		.literal
-		.params
 		.constant
 		.command {
-			color: $highlight-orange;
+			color: $highlight-green;
 		}
 
 		.ruby .class .title
@@ -97,30 +94,37 @@ $highlight-gutter       = #869194
 		.ruby .symbol
 		.xml .cdata
 		.special
-		.number
 		.formula {
-			color: $highlight-green;
+			color: $highlight-orange;
 		}
 
+		.number { color: $highlight-addition; }
+
 		.title
+		.python .title
+		.python .decorator {
+			color: $highlight-yellow;
+		}
+
+		.function
+		.attribute
 		.css .hexcolor {
 			color: $highlight-aqua;
 		}
 
-		.function
-		.python .decorator
-		.python .title
+		
 		.ruby .function .title
 		.ruby .title .keyword
 		.perl .sub
 		.javascript .title
 		.coffeescript .title {
-			color: $highlight-blue;
+			color: $highlight-purple;
 		}
 
 		.keyword
-		.javascript .function {
-			color: $highlight-purple;
+		.javascript .function 
+		.tag {
+			color: $highlight-blue;
 		}
 
 	}
