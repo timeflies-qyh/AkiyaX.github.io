@@ -1,5 +1,6 @@
 ---
 title: Hello World
+date: 2020-01-01 0:00:00
 id: hello-world
 tag: 折腾
 ---
