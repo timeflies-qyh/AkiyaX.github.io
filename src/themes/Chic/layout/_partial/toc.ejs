@@ -1,6 +1,6 @@
 <div class="post-toc">
     <div class="tocbot-list-menu">
-        <a class="tocbot-toc-expand" onclick="expand_toc()">▶︎ 目录</a>
+        <a class="tocbot-toc-expand" onclick="expand_toc()">▶︎ 展开目录</a>
     </div>
     <div class="tocbot-list">
     </div>
@@ -35,7 +35,7 @@
             scrollSmooth: true,
         });
         b.setAttribute("onclick", "collapse_toc()");
-        b.innerHTML = "▼ 目录"
+        b.innerHTML = "▼ 收起目录"
     }
 
     function collapse_toc() {
@@ -49,7 +49,7 @@
             scrollSmooth: true,
         });
         b.setAttribute("onclick", "expand_toc()");
-        b.innerHTML = "▶︎ 目录"
+        b.innerHTML = "▶︎ 展开目录"
     }
 
     function go_top() {
